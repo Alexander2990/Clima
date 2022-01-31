@@ -44,4 +44,4 @@ Explore the wonderful world of Application Programming Interfaces (APIs) for get
 * Научился использовать Grand Central Dispatch в основном потоке.
 * Научился использовать Core Location, чтобы получить текущее местоположение с телефона GPS.
 
-<img src="https://user-images.githubusercontent.com/64682381/151861735-c9e0db3d-2962-4156-98a9-d7393ef6a536.png" width="300">
+<img src="https://user-images.githubusercontent.com/64682381/151861735-c9e0db3d-2962-4156-98a9-d7393ef6a536.png" width="400">
