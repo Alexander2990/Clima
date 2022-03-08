@@ -32,11 +32,11 @@ struct WeatherManager {
     func perfomRequest(with urlString: String) {
         // Networking:
         
-        // 1. Create a URL.                 Создание реального объекта URL (запрос)
+        // 1. Create a URL.
         if let url = URL(string: urlString) {
-            // 2. Create a URLSession.      Создание сеанса URL (URLSession, URL - сеанс) (анология: создание браузера)
+            // 2. Create a URLSession.
             let session = URLSession(configuration: .default)
-            // 3. Give the session a task.  Дать сеансу URL - задачу (аналогия: помещаем URL адрес в строку браузера и даем задачу -> получить данные из источника)
+            // 3. Give the session a task.
             let task = session.dataTask(with: url) { data, response, error in
                 if error != nil {
                     self.delegate?.didFailWithError(error: error!)
@@ -48,7 +48,7 @@ struct WeatherManager {
                     }
                 }
             }
-            // 4. Start the task.           Начать задачу (аналогия: когда мы нажимем enter в строке поиска и запускаем сетевой процесс)
+            // 4. Start the task.
             task.resume()
         }
     }
