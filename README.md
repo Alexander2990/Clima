@@ -1,5 +1,7 @@
 # Clima
 
+### The App Brewery Complete App Development course project. 
+
 Beautiful, dark-mode enabled weather app. You'll be able to check the weather for the current location based on the GPS data from the iPhone as well as by searching for a city manually.
 
 ### My goal
@@ -22,6 +24,8 @@ Explore the wonderful world of Application Programming Interfaces (APIs) for get
 * Learned how to use Core Location to get current location from phone GPS.
 
 ---------------------------------------------
+
+### Учебный проект в рамках курса The App Brewery Complete App Development.
 
 Красивое погодное приложение с темным режимом. Вы сможете проверить погоду для текущего местоположения на основе данных GPS с iPhone, а также путем поиска города вручную.
 
